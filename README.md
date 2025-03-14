@@ -20,5 +20,5 @@
 ## 🔧 Setup & Installation  
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/weather-glance.git
+   git clone https://github.com/PrabhjotSinghUbhi/weather-glance.git
    cd weather-glance
