@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEATHER GLANCE</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
+    </style>
 </head>
-<body class="bg-black">
-    <section id="main-card">
-        <section id="search">
-            <div id="search-bar"></div>
-            <div id="search-btn"></div>
+
+<body class="bg-slate-700 min-h-screen outfit-font">
+    <section id="main-card" class="bg-cyan-500 max-w-sm mx-auto min-h-96 mt-24 rounded-2xl">
+        <section id="search" class="flex items-center gap-4 justify-center ">
+
+            <label for="input-city"></label>
+            <input type="text" id="input-city" placeholder="Enter city name"
+                class="bg-amber-50 rounded-3xl pl-5 p-2.5 w-full mt-11 focus:outline-none" autocomplete="off">
+
+            <div
+                class="p-2.5 text-7xl bg-amber-50 text-slate-700 
+                 rounded-4xl mt-11 mr-2.5 flex items-center justify-center border-none">
+                <span class="material-symbols-outlined ">
+                    search
+                </span>
+            </div>
+
         </section>
-        <section id="display">
-            <div id="weather-img"></div>
-            <div id="weather-text">
-                <div id="weather-degree"></div>
-                <div id="weather-state"></div>
+        <section id="display" class="w-full  flex flex-col items-center">
+            <div id="weather-img" class=" w-36 h-36">
+                <img src="img/image.png" alt="sunny-day">
+            </div>
+            <div id="weather-text" class=" w-48 h-10">
+                <div id="weather-degree" class="text-5xl text-slate-50 font-bold text-center">
+                    22*c
+                </div>
+                <div id="weather-state" class=" text-5xl text-slate-50 text-center">
+                    Bengal
+                </div>
             </div>
         </section>
         <section id="weather-attribute">
-            <div id="humidity"></div>
+            <div id="humidity" class="">
+                <div><span class="material-symbols-outlined ">
+                    search
+                </span>
+                <p>jdifjod</p>
+            </div>
+            </div>
             <div id="speed"></div>
         </section>
     </section>
 </body>
+
 </html>

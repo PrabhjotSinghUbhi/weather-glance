@@ -2,5 +2,26 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
     "tailwindcss": "^4.0.14"
-  }
+  },
+  "name": "weather-glance",
+  "version": "1.0.0",
+  "description": "**Weather-Glance** is a sleek and responsive weather app built with **HTML, Tailwind CSS, and JavaScript**, providing real-time weather updates at a glance! ☀️🌧️🌍",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"dev" : "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrabhjotSinghUbhi/weather-glance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PrabhjotSinghUbhi/weather-glance/issues"
+  },
+  "homepage": "https://github.com/PrabhjotSinghUbhi/weather-glance#readme"
 }

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+.outfit-font {
+    font-family:  "Poppins",'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    /* font-weight: 900; */
+    font-style: normal;
+  }
