@@ -9,7 +9,7 @@
 ✅ **Search by City** – Get weather details for any location 🌍  
 
 ## 📸 Preview  
-![Weather-Glance Screenshot](your-screenshot-url-here)  
+![Weather-Glance Screenshot](./img/images/image.png)  
 
 ## 🛠️ Tech Stack  
 - **HTML** – Structure the app  
