@@ -586,6 +586,9 @@
   .min-h-96 {
     min-height: calc(var(--spacing) * 96);
   }
+  .min-h-\[500px\] {
+    min-height: 500px;
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -1119,6 +1122,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .overflow-hidden {
+    overflow: hidden;
   }
   .scroll-auto {
     scroll-behavior: auto;
