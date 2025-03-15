@@ -41,6 +41,8 @@ async function checkWeather() {
         weatherImg.src = "../img/images/mist.png"
     } else if (main === 'Rain') {
         weatherImg.src = "../img/images/rain.png"
+    } else if (main === 'Snow') {
+        weatherImg.src = "../img/images/snow.png"
     }
 
     inputField.value = "";
