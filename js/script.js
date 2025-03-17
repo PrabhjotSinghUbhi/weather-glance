@@ -6,6 +6,7 @@ const inputField = document.querySelector('input')
 
 const weatherImg = document.querySelectorAll('img')[0];
 
+//New Suggestion Feature to add.
 async function giveSuggestion() {
     let response = await fetch(nameApi);
     let suggestions = await response.json()
