@@ -1,8 +1,17 @@
 const apiKey = "58b9914c13cf93af0f52d4cb17dd12ff"
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric"
+
+const nameApi = 'https://secure.geonames.org/searchJSON?name_startsWith=lon&maxRows=5&username=gurkirat_641'
 const inputField = document.querySelector('input')
 
 const weatherImg = document.querySelectorAll('img')[0];
+
+async function giveSuggestion() {
+    let response = await fetch(nameApi);
+    let suggestions = await response.json()
+
+    console.log(suggestions);
+}
 
 async function checkWeather() {
     let cityName = inputField.value
