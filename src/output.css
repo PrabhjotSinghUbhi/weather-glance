@@ -128,7 +128,7 @@
   }
   img, svg, video, canvas, audio, iframe, embed, object {
     display: block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
   }
   img, video {
     max-width: 100%;
@@ -401,7 +401,7 @@
     overflow: visible;
     display: block;
     -webkit-box-orient: horizontal;
-    -webkit-line-clamp: unset;
+    /* -webkit-line-clamp: unset; */
   }
   .block {
     display: block;
