@@ -108,6 +108,8 @@ window.addEventListener('keydown', (e) => {
 })
 
 inputField.addEventListener('blur', () => {
-    console.log("Input field is not active");
-    suggestBox.style.display = "none"
+    setTimeout(() => {
+        console.log("Input field is not active");
+        suggestBox.style.display = "none"
+    }, 100);
 })
