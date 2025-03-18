@@ -93,6 +93,7 @@ async function checkWeather() {
     }
 
     inputField.value = "";
+    suggestBox.style.display = "none";
 }
 
 const btn = document.getElementById('searchBtn')
@@ -104,12 +105,13 @@ inputField.addEventListener("input", giveSuggestion);
 window.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
         checkWeather();
+        suggestBox.style.display = "none";
     }
 })
 
 inputField.addEventListener('blur', () => {
     setTimeout(() => {
         console.log("Input field is not active");
-        suggestBox.style.display = "none"
+        suggestBox.style.display = "none";
     }, 100);
 })

@@ -4,7 +4,7 @@ node_modules/
 # Ignore build and output files
 dist/
 build/
-src/output.css
+# src/output.css
 
 # Ignore dependency lock files (optional)
 package-lock.json
