@@ -113,5 +113,5 @@ inputField.addEventListener('blur', () => {
     setTimeout(() => {
         console.log("Input field is not active");
         suggestBox.style.display = "none";
-    }, 100);
+    }, 1000);
 })
